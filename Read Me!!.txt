@@ -1,0 +1,36 @@
+Solution - Coding Assessment
+
+The java console application consists of TransportFlight.java containing the main() method, the entry point of the program. The main() method prompts the user to select an option from 3 different options implemented with help of switch case inside a do-while loop. The first 2 options are solutions for User Story 1 and User story 2 respectively. The third option is to exit the application.
+
+1.) Display Flight Schedule: 
+- The FlightDetails.java class contains the getters/setters and necessary methods required to store and display the flight details.
+- The FlightDetailsImpl.java stores the information in form of ArrayList<> and returns the results in the form of ArrayList<> of type FlightDetails.
+- The FlightDetailsImpl.java is the implementation of the fetchflightDetails() method having return type List<FlightDetails> located in FlightDetailsService.java
+
+2.)Load Order details :
+- Similarly, OrderDetails.java class contains the getters/setters and necessary methods required to store and display the order details.
+- The FlightDetailsImpl.java also contains the implementation of List<OrderDetails> displayOrderDetails(String location) method declared in FlightDetailsService.java
+- I have read the Json file using JSONObject class and stored in form of  List<OrderDetails>, then there is some validation using Loops, Logical Operators and some String Manipulation operation.
+
+3.) Exit.....
+
+================================Run the Solution===========================================================================
+
+I have included the JAR file of the solution as well named as TestFlight.jar , in order to run the file... 
+
+a.) Open windows powershell or any commandline interface.
+b.) Change directory to the location of the TestFlight.jar
+c.) type "java -jar TestFlight.jar" and hit enter
+d.) Select the option to view solutions of the two user stories.
+
+		OR
+
+Run the TransportFlight.java using any of IDEs after successfully importing whole of the solution.
+
+==============================================xxxxxxxxxxxxxxxx===============================================================
+
+Hope to Meet and eager to work with you guys!!
+   Karan Klair
+   karan.klair05@gmail.com
+   +1(647)-280-8447	
+
